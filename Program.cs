@@ -28,6 +28,9 @@ namespace Blutdruck_Loesung
 
             double durchschnittObererWert = sumObererWert / messungen.Count;
             double durchschnittUntererWert = sumUntererWert / messungen.Count;
+
+            Console.WriteLine($"unterer Wert: {durchschnittUntererWert}");
+            Console.WriteLine($"oberer Wert: {durchschnittObererWert}");
         }
     }
 }
